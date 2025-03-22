@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nitro build",
+    "dev": "nitro dev",
+    "prepare": "nitro prepare",
+    "preview": "node .output/server/index.mjs"
+  },
+  "devDependencies": {
+    "@types/multer": "^1.4.12",
+    "nitropack": "latest"
+  },
+  "dependencies": {
+    "multer": "^1.4.5-lts.2"
+  }
+}
